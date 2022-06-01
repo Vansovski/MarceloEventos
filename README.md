@@ -1,4 +1,4 @@
-# ProEventosApp
+# Estudos de Agunlar 16 e .Net 6 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
 
