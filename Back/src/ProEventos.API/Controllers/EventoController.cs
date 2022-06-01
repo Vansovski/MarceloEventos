@@ -24,6 +24,24 @@ public class EventoController : ControllerBase
            QtdPessoas = 250,
            DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
            ImgURL ="Img/URL"
+       },
+       new Evento(){
+           EventoId = 1,
+           Tema = "React",
+           Local = "Belo Horizonte",
+           Lote = "1",
+           QtdPessoas = 50,
+           DataEvento = DateTime.Now.AddDays(5).ToString("dd/MM/yyyy"),
+           ImgURL ="Img/URL"
+       },
+       new Evento(){
+           EventoId = 1,
+           Tema = "Engenharia de Controle e Automação",
+           Local = "Belo Horizonte",
+           Lote = "1",
+           QtdPessoas = 250,
+           DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
+           ImgURL ="Img/URL"
        }};
     }
 }
