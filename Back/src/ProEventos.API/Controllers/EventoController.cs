@@ -29,4 +29,18 @@ public class EventoController : ControllerBase
     {
        return _context.Eventos.FirstOrDefault(evento => evento.EventoId == id);
     }
+
+    [HttpPost]
+    public string Post()
+    {
+       return "Utilizando o Metodo POST";
+    }
+
+    
+    [HttpDelete]
+    public string Delete()
+    {
+       return "Utilizando o Metodo DELETE";
+    }
 }
+
