@@ -12,7 +12,7 @@ export class EventosComponent implements OnInit {
   public eventos: any;
 
   public getEventos(): void {
-    this.http.get('http://localhost:5008/api/Evento').subscribe(
+    this.http.get('http://localhost:5008/api/Eventos').subscribe(
       response => this.eventos = response
     );
   }
