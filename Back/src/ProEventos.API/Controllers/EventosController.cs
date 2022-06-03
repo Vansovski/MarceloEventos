@@ -6,6 +6,7 @@ namespace ProEventos.API.Controllers;
 
 
 [ApiController]
+[Route("api/[controller]")]
 public class EventosController : ControllerBase
 {
     //Injeção de dependecia do DbContext
